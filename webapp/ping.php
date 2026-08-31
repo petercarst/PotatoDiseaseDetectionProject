@@ -1,6 +1,6 @@
 <?php
 /**
- * Uhai Intelligence - lightweight proxy check for the FastAPI prediction engine.
+ * uhAI Intelligence - lightweight proxy check for the FastAPI prediction engine.
  * Called by the browser so the health check never has to fight CORS directly.
  */
 

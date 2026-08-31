@@ -23,7 +23,7 @@ require_once __DIR__ . '/includes/header.php';
     <span class="ui-eyebrow"><i class="bi bi-stars me-1"></i>Computer Vision for Agriculture</span>
     <h1 class="font-display fw-bold ui-hero-title mt-3 mb-3 text-gradient-uhai">Diagnose Potato Leaves Instantly</h1>
     <p class="ui-lede">
-      Upload a photo of a potato plant leaf and Uhai Intelligence's convolutional neural network
+      Upload a photo of a potato plant leaf and uhAI Intelligence's convolutional neural network
       will screen it for <strong>Early Blight</strong> and <strong>Late Blight</strong> in seconds.
     </p>
     <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">

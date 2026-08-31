@@ -1,6 +1,6 @@
 <?php
 /**
- * Uhai Intelligence - Potato Leaf Disease Detection
+ * uhAI Intelligence - Potato Leaf Disease Detection
  * Global application configuration
  */
 
@@ -22,7 +22,7 @@ define('ALLOWED_MIME_TYPES', ['image/jpeg', 'image/png', 'image/webp']);
 define('ALLOWED_EXTENSIONS', ['jpg', 'jpeg', 'png', 'webp']);
 
 // --- App ----------------------------------------------------------------
-define('APP_NAME', 'Uhai Intelligence');
+define('APP_NAME', 'uhAI Intelligence');
 define('APP_TAGLINE', 'AI-Powered Potato Leaf Disease Detection');
 
 date_default_timezone_set('Africa/Nairobi');

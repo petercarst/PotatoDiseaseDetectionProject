@@ -1,6 +1,6 @@
 <?php
 /**
- * Uhai Intelligence - shared helpers
+ * uhAI Intelligence - shared helpers
  */
 
 require_once __DIR__ . '/../config/database.php';

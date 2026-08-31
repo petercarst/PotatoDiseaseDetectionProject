@@ -11,7 +11,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <title><?= e(APP_NAME) ?> &mdash; <?= e(APP_TAGLINE) ?></title>
 <link rel="icon" href="assets/img/favicon.png">
 
-<!-- Fonts (matches the Uhai Intelligence brand system) -->
+<!-- Fonts (matches the uhAI Intelligence brand system) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -52,10 +52,10 @@ $currentPage = basename($_SERVER['PHP_SELF']);
   <div class="container">
     <a class="navbar-brand d-flex align-items-center gap-2" href="index.php">
       <span class="ui-logo-mark">
-        <img src="assets/img/uhai-logo-mark.png" alt="Uhai Intelligence">
+        <img src="assets/img/uhai-logo-mark.png" alt="uhAI Intelligence">
       </span>
       <span class="d-flex flex-column lh-1">
-        <span class="fw-bold font-display text-gradient-uhai fs-5">Uhai Intelligence</span>
+        <span class="fw-bold font-display text-gradient-uhai fs-5">uhAI Intelligence</span>
         <span class="ui-brand-sub">Potato Leaf Diagnostics</span>
       </span>
     </a>

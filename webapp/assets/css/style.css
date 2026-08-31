@@ -1,13 +1,13 @@
 /* ============================================================
-   Uhai Intelligence — Potato Leaf Diagnostics
-   Ported from the Uhai Intelligence design system
+   uhAI Intelligence — Potato Leaf Diagnostics
+   Ported from the uhAI Intelligence design system
    (c:\xampp\htdocs\uhAIintelligence\assets\css\variables.css):
    a light-first, navy / green / sky-blue palette with flat
    brand fills (not gradients) and soft, warm elevation.
    ============================================================ */
 
 :root {
-  /* ---- Brand colors (from the Uhai Intelligence token set) ---- */
+  /* ---- Brand colors (from the uhAI Intelligence token set) ---- */
   --color-navy-950: #050f24;
   --color-navy-900: #071a3d;
   --color-navy-800: #0b2452;

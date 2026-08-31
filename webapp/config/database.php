@@ -1,6 +1,6 @@
 <?php
 /**
- * Uhai Intelligence - PDO database connection
+ * uhAI Intelligence - PDO database connection
  */
 
 require_once __DIR__ . '/config.php';

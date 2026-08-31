@@ -1,4 +1,4 @@
--- Uhai Intelligence : Potato Leaf Disease Detection
+-- uhAI Intelligence : Potato Leaf Disease Detection
 -- Database schema
 
 CREATE DATABASE IF NOT EXISTS potato_disease_db

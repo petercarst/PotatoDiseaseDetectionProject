@@ -1,5 +1,5 @@
 /**
- * Uhai Intelligence - front-end interactions
+ * uhAI Intelligence - front-end interactions
  * Upload/drag-drop, AJAX scan, live results, history delete.
  */
 (function () {

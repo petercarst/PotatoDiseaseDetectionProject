@@ -1,6 +1,6 @@
 <?php
 /**
- * Uhai Intelligence - handles a leaf upload:
+ * uhAI Intelligence - handles a leaf upload:
  *   1. validates the image
  *   2. forwards it to the FastAPI/TensorFlow model
  *   3. stores the result in MySQL

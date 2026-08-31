@@ -1,6 +1,6 @@
 <?php
 /**
- * Uhai Intelligence - deletes a scan record and its stored image.
+ * uhAI Intelligence - deletes a scan record and its stored image.
  */
 
 require_once __DIR__ . '/config/config.php';
