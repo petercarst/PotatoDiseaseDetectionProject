@@ -105,13 +105,9 @@
 * { box-sizing: border-box; }
 
 body {
-  /* Mixed green-and-white backdrop — light mode only; dark mode keeps its
-     single flat navy surface rather than fighting the tint gradient. */
-  background:
-    radial-gradient(70rem 34rem at 8% -8%, rgba(32, 166, 90, 0.14), transparent 60%),
-    radial-gradient(55rem 30rem at 100% 0%, rgba(126, 224, 168, 0.16), transparent 55%),
-    linear-gradient(180deg, #eafaf1 0%, #ffffff 24%, #ffffff 76%, #eafaf1 100%);
-  background-attachment: fixed;
+  /* Light green backdrop — light mode only; dark mode keeps its single
+     flat navy surface. White cards (--card-bg) sit on top for contrast. */
+  background: #e3f6ea;
   color: var(--text-primary);
   font-family: 'Inter', 'Segoe UI', sans-serif;
   min-height: 100vh;
