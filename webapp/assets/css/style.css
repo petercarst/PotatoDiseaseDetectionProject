@@ -286,6 +286,7 @@ a { text-decoration: none; }
   transition: transform var(--dur-base) var(--ease-out-quart), box-shadow var(--dur-base) var(--ease-out-quart);
 }
 .ui-btn-gradient:hover:not(:disabled) {
+  background: var(--color-green-500);
   color: #fff; transform: translateY(-2px);
   box-shadow: 0 16px 36px -8px rgba(32, 166, 90, 0.6);
 }
