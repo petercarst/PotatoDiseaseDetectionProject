@@ -7,6 +7,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
 <title><?= e(APP_NAME) ?> &mdash; <?= e(APP_TAGLINE) ?></title>
 <link rel="icon" href="assets/img/favicon.png">
 
