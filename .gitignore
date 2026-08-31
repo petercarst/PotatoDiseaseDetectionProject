@@ -1,0 +1,28 @@
+# Dependencies / build output
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment secrets
+.env
+*.env
+!frontend/.env.example
+
+# App runtime data (uploaded scan images)
+webapp/uploads/*
+!webapp/uploads/.htaccess
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+.vscode/
