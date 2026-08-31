@@ -77,13 +77,28 @@ $curlError = curl_error($ch);
 $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
 
-if ($response === false || $httpCode !== 200) {
+if ($response === false) {
     unlink($destination);
-    fail(502, 'The AI engine is unreachable. Make sure the FastAPI server (api/main.py) is running on port 8000, then try again.'
+    fail(502, 'The AI engine is unreachable. Make sure the FastAPI server (api/main.py) is running on port 8002, then try again.'
         . ($curlError ? " ({$curlError})" : ''));
 }
 
 $prediction = json_decode($response, true);
+
+if ($httpCode === 422) {
+    unlink($destination);
+    $detail = $prediction['detail'] ?? null;
+    $message = is_array($detail) && !empty($detail['message'])
+        ? $detail['message']
+        : "This doesn't look like a potato leaf photo. Please upload a clear, close-up photo of a single leaf.";
+    fail(422, $message);
+}
+
+if ($httpCode !== 200) {
+    unlink($destination);
+    fail(502, 'The AI engine is unreachable. Make sure the FastAPI server (api/main.py) is running on port 8002, then try again.');
+}
+
 if (!isset($prediction['class'], $prediction['confidence'])) {
     unlink($destination);
     fail(502, 'The AI engine returned an unexpected response.');
